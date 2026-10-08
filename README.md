@@ -1,5 +1,4 @@
 # 2514101059
-2514101059
 
 email : mohamadrakhaputraardian@gmail.com
 phone : 085142186970
