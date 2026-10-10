@@ -1,1 +1,1 @@
-Buka menggunakan live server
+dibuat untuk melihat melalui pages 
