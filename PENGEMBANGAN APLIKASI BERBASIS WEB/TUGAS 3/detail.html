@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detail Destinasi — TRIPNUSA</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="index.html">TRIP<span>NUSA</span></a>
+    <a class="back" href="index.html#destinasi">← Kembali ke destinasi</a>
+  </div>
+</header>
+
+<main>
+<section class="detailHero">
+  <div class="wrap">
+    <p class="eyebrow">DETAIL DESTINASI</p>
+    <h1 id="title">Destinasi</h1>
+    <p id="subtitle"></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap detail">
+    <div>
+      <img id="mainImage" alt="Foto destinasi">
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+    <div>
+      <p class="eyebrow">INFORMASI WISATA</p>
+      <h2 id="heading"></h2>
+      <p id="description"></p>
+      <div class="infoCards" id="infoCards"></div>
+      <h3>Media Sosial</h3>
+      <div class="socials" id="socials"></div>
+      <h3>Aktivitas</h3>
+      <div class="chips" id="activities"></div>
+      <a class="btn" id="maps" target="_blank">BUKA GOOGLE MAPS</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="heading">
+      <p class="eyebrow">PAKET UNTUK DESTINASI INI</p>
+      <h2>Pilih pengalamanmu.</h2>
+      <p>Setiap destinasi punya pengalaman yang berbeda. Pilih paket untuk melihat foto, deskripsi, dan harga, lalu konfirmasi melalui WhatsApp.</p>
+    </div>
+    <div class="detailPackages" id="detailPackages"></div>
+  </div>
+</section>
+
+<!-- MODAL DETAIL PAKET -->
+<div class="packageModal" id="packageModal" aria-hidden="true">
+  <div class="packageModalOverlay" data-close-package></div>
+  <div class="packageModalBox" role="dialog" aria-modal="true" aria-labelledby="modalPackageName">
+    <button class="packageModalClose" type="button" data-close-package aria-label="Tutup">&times;</button>
+    <div class="packageModalGrid">
+      <div class="packageModalImageWrap">
+        <img id="modalPackageImage" src="" alt="Foto paket">
+      </div>
+      <div class="packageModalContent">
+        <p class="eyebrow">DETAIL PENGALAMAN</p>
+        <h2 id="modalPackageName">Nama Paket</h2>
+        <p id="modalPackageDescription" class="modalDescription"></p>
+        <div class="modalPrice" id="modalPackagePrice"></div>
+        <div class="modalMeta" id="modalPackageMeta"></div>
+        <div class="modalFacilities">
+          <h3>Fasilitas</h3>
+          <ul id="modalPackageFacilities"></ul>
+        </div>
+        <a class="btn modalWa" id="modalPackageWa" target="_blank">PILIH VIA WHATSAPP</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="section soft">
+  <div class="wrap">
+    <div class="heading">
+      <p class="eyebrow">VIDEO DESTINASI</p>
+      <h2>Lihat suasana wisatanya.</h2>
+      <!-- <p>Video ditempatkan di halaman detail agar pengunjung bisa mengenal destinasi sebelum berkunjung.</p> -->
+    </div>
+    <div class="video"><iframe id="video" title="Video destinasi" allowfullscreen></iframe></div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="wrap">
+    <div class="heading light">
+      <p class="eyebrow">LOKASI</p>
+      <h2>Temukan lokasinya.</h2>
+    </div>
+    <div class="map big"><iframe id="map" loading="lazy"></iframe></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap ctaPackage">
+    <div>
+      <p class="eyebrow">SIAP BERANGKAT?</p>
+      <h2>Pilih paket dan hubungi kami.</h2>
+      <p>Klik tombol di bawah untuk langsung membuka WhatsApp dengan pesan yang sudah disiapkan.</p>
+    </div>
+    <a class="btn" id="waDetail">PILIH PAKET VIA WHATSAPP</a>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap foot"><b>TRIP<span>NUSA</span></b><p>© 2026 Tugas Pertemuan 3</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
